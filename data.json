@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "GIMP",
+    "category": "Adobe Alternatives",
+    "replaces": "Adobe Photoshop",
+    "license": "Open Source",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "summary": "Full-featured image editor, layer manipulation, and photo retouching.",
+    "useCases": ["Photo editing & retouching", "Digital artwork", "Graphic design"],
+    "specsMin": "Dual Core CPU, 2 GB RAM, 500 MB Storage",
+    "specsRec": "Quad Core CPU, 8 GB RAM, Dedicated GPU",
+    "officialUrl": "https://www.gimp.org",
+    "code": "winget install GIMP.GIMP\n# or on Ubuntu:\nsudo apt install gimp"
+  },
+  {
+    "id": "2",
+    "title": "Kdenlive",
+    "category": "Adobe Alternatives",
+    "replaces": "Adobe Premiere Pro",
+    "license": "Open Source",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "summary": "Non-linear video editor with multi-track editing, effects, and titling.",
+    "useCases": ["YouTube video editing", "Color correction", "Audio mixing"],
+    "specsMin": "Intel i5/Ryzen 5, 8 GB RAM, OpenGL 3.2 support",
+    "specsRec": "Intel i7/Ryzen 7, 16 GB RAM, GTX 1060 / RX 580 or better",
+    "officialUrl": "https://kdenlive.org",
+    "code": "winget install KDE.Kdenlive\n# or via Flatpak:\nflatpak install flathub org.kde.kdenlive"
+  },
+  {
+    "id": "3",
+    "title": "LibreOffice",
+    "category": "Microsoft 365",
+    "replaces": "Microsoft Office Suite",
+    "license": "Open Source",
+    "platforms": ["Windows", "macOS", "Linux"],
+    "summary": "Powerful office suite with Writer, Calc, Impress, and Draw.",
+    "useCases": ["Document editing", "Spreadsheet analysis", "Slideshow presentations"],
+    "specsMin": "1 GHz CPU, 512 MB RAM, 1.5 GB Storage",
+    "specsRec": "Dual Core CPU, 4 GB RAM, 2 GB SSD Storage",
+    "officialUrl": "https://www.libreoffice.org",
+    "code": "winget install DocumentFoundation.LibreOffice"
+  }
+]
